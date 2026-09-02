@@ -1,0 +1,9 @@
+{
+  "name": "licensed-trade-website-system",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Buildless mobile-first website template for a licensed local trade specialist",
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  }
+}

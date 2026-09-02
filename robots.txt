@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Template preview only. Replace together with canonical URLs and sitemap at launch.
