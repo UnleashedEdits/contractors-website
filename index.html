@@ -8,9 +8,9 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#15232e">
   <link rel="canonical" href="https://unleashededits.github.io/contractors-website/">
-  <link rel="stylesheet" href="styles.css">
-  <script src="business-config.js" defer></script>
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=4">
+  <script src="business-config.js?v=4" defer></script>
+  <script src="app.js?v=4" defer></script>
 </head>
 <body data-page="Home">
   <header data-site-header></header>
@@ -33,18 +33,8 @@
         </div>
         <aside class="hero-aside" aria-label="Service summary" data-reveal>
           <div class="hero-visual" aria-hidden="true">
-            <svg viewBox="0 0 640 430" role="img">
-              <path class="hero-sky" d="M0 0h640v430H0z"/>
-              <path class="hero-ground" d="M0 330h640v100H0z"/>
-              <path class="hero-house" d="M126 214 286 90l161 124v164H126z"/>
-              <path class="hero-roof" d="m92 225 194-151 195 151-24 31-171-130-171 130z"/>
-              <path class="hero-door" d="M258 270h74v108h-74z"/>
-              <path class="hero-window" d="M157 245h63v58h-63zm194 0h63v58h-63z"/>
-              <path class="hero-wire" d="M475 80v298M441 116h68M450 142h50"/>
-              <path class="hero-bolt" d="m505 205-36 54h26l-19 54 51-70h-29z"/>
-              <circle class="hero-sun" cx="510" cy="76" r="34"/>
-            </svg>
-            <span>Built for safe, well-scoped work</span>
+            <img src="assets/hero-electrician.jpg" width="1536" height="1024" alt="" fetchpriority="high">
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 12 2 2 4-5m6 3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg> Direct, professional service</span>
           </div>
           <div class="hero-stat"><small>Service type</small><strong data-bind="tradeLabel"></strong></div>
           <div class="hero-stat"><small>Service area</small><strong data-bind="serviceAreaSummary"></strong></div>
@@ -71,12 +61,12 @@
           <p class="lede">You do not need to know the technical name. Choose the problem that sounds closest; the assessment confirms the actual scope.</p>
         </div>
         <div class="card-grid">
-          <article class="problem-card" data-reveal><span class="card-number">01 / POWER</span><h3>Power keeps cutting out</h3><p>Repeated trips, intermittent power, warm devices or unexplained outages need a careful assessment before repair options are set.</p></article>
-          <article class="problem-card" data-reveal><span class="card-number">02 / CAPACITY</span><h3>You need more usable power</h3><p>Add outlets, circuits or capacity for a renovation, appliance, workspace or growing equipment load.</p></article>
-          <article class="problem-card" data-reveal><span class="card-number">03 / LIGHT</span><h3>The lighting is not right</h3><p>Resolve failed fixtures, uneven rooms, difficult controls or a planned lighting refresh.</p></article>
-          <article class="problem-card" data-reveal><span class="card-number">04 / PANEL</span><h3>The panel feels outgrown</h3><p>Plan an assessment for an older panel, additions, new equipment or a property transition.</p></article>
-          <article class="problem-card" data-reveal><span class="card-number">05 / PROJECT</span><h3>A renovation is moving</h3><p>Define electrical work early enough for a written scope, coordination and realistic scheduling.</p></article>
-          <article class="problem-card" data-reveal><span class="card-number">06 / BUSINESS</span><h3>Downtime is costing time</h3><p>Start with the affected area, operational impact and safe access window for commercial assessment.</p></article>
+          <article class="problem-card" data-reveal><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13 2 5 14h6l-1 8 8-12h-6l1-8Z"/></svg></span><h3>Power keeps cutting out</h3><p>Repeated trips, intermittent power, warm devices or unexplained outages need a careful assessment before repair options are set.</p></article>
+          <article class="problem-card" data-reveal><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18"/></svg></span><h3>You need more usable power</h3><p>Add outlets, circuits or capacity for a renovation, appliance, workspace or growing equipment load.</p></article>
+          <article class="problem-card" data-reveal><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 18h6m-5 3h4m4-10a6 6 0 1 0-12 0c0 2.2 1.2 3.4 2.1 4.3.5.5.9 1.1.9 1.7h6c0-.6.4-1.2.9-1.7.9-.9 2.1-2.1 2.1-4.3Z"/></svg></span><h3>The lighting is not right</h3><p>Resolve failed fixtures, uneven rooms, difficult controls or a planned lighting refresh.</p></article>
+          <article class="problem-card" data-reveal><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h3m2 0h3m-8 4h3m2 0h3m-8 4h3m2 0h3"/></svg></span><h3>The panel feels outgrown</h3><p>Plan an assessment for an older panel, additions, new equipment or a property transition.</p></article>
+          <article class="problem-card" data-reveal><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 11 9-7 9 7v9H3v-9Zm5 9v-6h8v6"/></svg></span><h3>A renovation is moving</h3><p>Define electrical work early enough for a written scope, coordination and realistic scheduling.</p></article>
+          <article class="problem-card" data-reveal><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 21V7l8-4v18m8 0V10l-8-3M2 21h20M7 10h2m-2 4h2m-2 4h2m6-6h2m-2 4h2"/></svg></span><h3>Downtime is costing time</h3><p>Start with the affected area, operational impact and safe access window for commercial assessment.</p></article>
         </div>
         <div class="button-row"><a class="button button-text" href="services.html">Explore every service path →</a></div>
       </div>
@@ -90,14 +80,14 @@
         </div>
         <div class="path-grid">
           <article class="path-card" data-reveal>
-            <span class="path-code">S</span>
+            <span class="path-code" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4m8-4v4M3 10h18m-13 4h3m2 0h3m-8 3h3"/></svg></span>
             <h3>Scheduled work</h3>
             <p>For upgrades, additions, lighting, renovations, inspections or other work that can be assessed and planned.</p>
             <ul><li>Share the property and problem</li><li>Arrange the right assessment</li><li>Review written scope before scheduling</li></ul>
             <div class="button-row"><a class="button button-dark" href="#quote">Plan the work</a></div>
           </article>
           <article class="path-card path-card-dark" data-reveal>
-            <span class="path-code">U</span>
+            <span class="path-code" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 2.8 20h18.4L12 3Zm0 6v5m0 3v.1"/></svg></span>
             <h3>Urgent service</h3>
             <p>If something appears unsafe, stop using the affected equipment when it is safe to do so and call. For immediate danger, contact local emergency services.</p>
             <ul><li>Describe what changed</li><li>Confirm current availability by phone</li><li>Receive the safest next-step guidance</li></ul>
@@ -110,24 +100,24 @@
     <section class="section" aria-labelledby="projects-title">
       <div class="inner">
         <div class="split-heading" data-reveal>
-          <div><p class="eyebrow">Project proof</p><h2 id="projects-title">Show the problem. Show the work.</h2></div>
-          <p class="lede">These cards are production-ready proof slots. Publish only owner-approved images and verified project details.</p>
+          <div><p class="eyebrow">Service gallery</p><h2 id="projects-title">See how the work is approached.</h2></div>
+          <p class="lede">Representative imagery shows common service contexts without inventing a customer, location or completed result.</p>
         </div>
         <div class="project-grid">
           <article class="project-card" data-reveal>
-            <div class="project-visual"><span>Owner-approved image slot</span><strong>Home<br>power</strong></div>
-            <div class="project-content"><h3>Residential repair</h3><dl><div><dt>Location</dt><dd>Verified neighbourhood + city</dd></div><div><dt>Problem</dt><dd>Customer-approved problem summary</dd></div><div><dt>Completed</dt><dd>Owner-approved work description</dd></div></dl></div>
+            <figure class="project-visual"><img src="assets/residential-diagnostic.jpg" width="1448" height="1086" loading="lazy" alt="Electrician using a meter while assessing a residential breaker panel"><figcaption>AI-generated representative image</figcaption></figure>
+            <div class="project-content"><h3>Residential diagnosis</h3><dl><div><dt>Property</dt><dd>Home or multi-unit residence</dd></div><div><dt>Concern</dt><dd>Intermittent power or repeated trips</dd></div><div><dt>Approach</dt><dd>Assessment before repair options</dd></div></dl></div>
           </article>
           <article class="project-card" data-reveal>
-            <div class="project-visual"><span>Owner-approved image slot</span><strong>Panel<br>planning</strong></div>
-            <div class="project-content"><h3>Capacity project</h3><dl><div><dt>Location</dt><dd>Verified community + region</dd></div><div><dt>Problem</dt><dd>Customer-approved project need</dd></div><div><dt>Completed</dt><dd>Owner-approved work description</dd></div></dl></div>
+            <figure class="project-visual"><img src="assets/panel-planning.jpg" width="1448" height="1086" loading="lazy" alt="Electrician measuring wall space beside a residential electrical panel"><figcaption>AI-generated representative image</figcaption></figure>
+            <div class="project-content"><h3>Capacity planning</h3><dl><div><dt>Property</dt><dd>Home, addition or renovation</dd></div><div><dt>Concern</dt><dd>Added circuits or new equipment</dd></div><div><dt>Approach</dt><dd>Capacity and access reviewed before scope</dd></div></dl></div>
           </article>
           <article class="project-card" data-reveal>
-            <div class="project-visual"><span>Owner-approved image slot</span><strong>Business<br>fit-out</strong></div>
-            <div class="project-content"><h3>Commercial work</h3><dl><div><dt>Location</dt><dd>Verified business district + city</dd></div><div><dt>Problem</dt><dd>Customer-approved operational need</dd></div><div><dt>Completed</dt><dd>Owner-approved work description</dd></div></dl></div>
+            <figure class="project-visual"><img src="assets/commercial-fitout.jpg" width="1448" height="1086" loading="lazy" alt="Electrician reviewing a commercial electrical enclosure with a tablet"><figcaption>AI-generated representative image</figcaption></figure>
+            <div class="project-content"><h3>Commercial assessment</h3><dl><div><dt>Property</dt><dd>Workplace or commercial space</dd></div><div><dt>Concern</dt><dd>Operational interruption or fit-out</dd></div><div><dt>Approach</dt><dd>Access and impact defined before scheduling</dd></div></dl></div>
           </article>
         </div>
-        <div class="button-row"><a class="button button-dark" href="projects.html">View project proof system</a></div>
+        <div class="button-row"><a class="button button-dark" href="projects.html">View the service gallery</a></div>
       </div>
     </section>
 
